@@ -1,0 +1,8 @@
+public class otp_generator{
+public static void main (String [] arr){
+double rndnum=Math.random();
+rndnum=100000*rndnum;
+int otp=(int)rndnum;
+System.out.println("your otp is:"+otp);
+}
+}
